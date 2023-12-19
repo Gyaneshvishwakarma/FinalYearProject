@@ -1,0 +1,54 @@
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
+</head>
+<body>
+    <%- include('header') -%>
+   <div class="contact-grid">
+      <div class="image-container">
+         <img src="images/SVG/Sales consulting-amico.svg" alt="">
+      </div>
+   
+      <div class="contact-container">
+         <h2>Get In Touch</h2>
+         <form>
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" placeholder="Your Name"  required>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+
+            <button type="submit" class="primary-button">Submit</button>
+       </form>
+
+       <div class="location-container">
+         <div class="location-info">
+             <i class="fas fa-map-marker-alt"></i>
+             <p>Narsinghpur - 487001 | Madhya Pradesh | India</p>
+         </div>
+
+         <div class="location-info">
+             <i class="fas fa-phone"></i>
+             <p>+91 9106766593</p>
+         </div>
+
+         <div class="location-info">
+             <i class="fas fa-envelope"></i>
+             <p>yogeshvish2010@gmail.com</p>
+         </div>
+      </div>
+      
+   </div>
+   </div>
+   <%- include('footer') -%>
+          <script
+      src="https://kit.fontawesome.com/c1fc3d2826.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
